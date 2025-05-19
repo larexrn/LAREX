@@ -1,0 +1,654 @@
+
+body{
+  padding:0%;
+  margin: 0%;
+}
+button{
+  border-color: #4800ff;
+}
+.draw{
+
+  padding-top: 25px;
+  z-index: 0;
+}
+
+.about{
+  width: 100%;
+  height: 25px;
+  position: fixed;
+  z-index: 100;
+ }
+
+ .zero{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  font-family:'Times New Roman', Times, serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(0, 55, 255);
+  margin-right: 0;
+  transition: all 0.1s linear;
+  cursor:  url(c/magia.png), auto;
+ }
+
+.zero:hover{
+  background-color: rgb(22, 255, 146);
+    color: rgb(0, 0, 0);
+}
+/*/////////////////manifesto larex/ inicio/////////////*/
+.flyer{
+  width: 75%;
+  height: 90vh;
+
+       }
+       #informativo{
+       margin-top: 25px;
+        background-color:rgba(0, 8, 255, 0.775);
+      }
+       .flyer .cancelador{
+        display: flex;
+        justify-content: flex-end;
+color: rgba(0, 0, 255, 0);
+        }
+        #collabs:checked ~ .popmama{
+          display:flex;
+       }
+       #collabs{
+        display:none;
+        }    
+        .popmama{
+          width: 100%;
+          height: 100vh;
+          position: fixed;
+          top: 0; left: 0;
+          display: none;
+          justify-content: center;
+          align-items: center;
+          z-index: 100;
+        }
+        .cerrar-modal{
+          width:100%;
+          height: 100vh;
+          position: absolute;
+          top:0; left: 0;
+          z-index: -1;
+       
+        }
+
+/*/////////////////manifesto larex fin//////////////*/
+        h1{
+           color: rgb(0, 0, 0);
+           font-size: 20px;
+           font-family:'PT Mono', monospace;
+           font-weight: 600;
+           letter-spacing: 20px;
+        }
+                #popa{
+           font-size: 20px;
+           font-weight: 600;
+        }
+        h2{
+          font-size: 20px;
+          font-family:'PT Mono', monospace;
+          width: 100%;
+          text-align: justify;
+          }
+          h3{
+          margin-top: -0%;
+          color: rgba(0, 0, 255, 0.622);
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 50px;
+          font-weight: 600;
+          letter-spacing: 5px;
+          line-height: 41px;
+          } 
+    
+       #morado{
+       color: rgb(255, 255, 255);
+         letter-spacing: 20px;
+         font-weight: 600;
+        }
+       #blancomani{
+       color: rgb(255, 255, 255);
+       font-size: 15px;
+         letter-spacing: 10px;
+         font-weight: 250;
+         }
+       /*/////////////////gatitos/////////////*/
+       .vertical{
+        width:100%;
+        height: 8%;
+        position: absolute;
+       margin-top: 50%;
+        font-family:'PT Mono', monospace;
+        font-weight: 850;
+        font-size: 21px;
+       }
+      .noventagrados{
+        transform: rotate(-90deg);
+        color: rgb(0, 255, 42);
+      }
+       .gatos{
+        width: 20%;
+        height: 70px;
+        position: absolute;
+      }
+      #papel{
+       margin-top: 5%;
+       margin-left: 10%;
+      }
+      #papel img{
+       width: 70%;
+      }
+      #plastico{
+        margin-top: 17%;
+        margin-left: 2%;
+       }
+       #plastico img{
+       width: 70%;
+      }
+       #install{
+        margin-top: 11%;
+        margin-left: 35%;
+       }
+       #install img{
+       width: 80%;
+      }
+       #happen{
+        margin-top: 20%;
+        margin-left: 40%;
+       }
+       #happen img{
+       width: 75%;
+      }
+       #talleres{
+        margin-top: 5%;
+        margin-left: 60%;
+       }
+      #talleres img{
+       width: 60%;
+      }
+       #fun{
+        margin-top: 17%;
+        margin-left: 2%;
+       }
+      #fun img{
+       width: 50%;
+      }
+       #reu{
+        margin-top: 26%;
+        margin-left: 6%;
+       }
+       #reu img{
+       width: 90%;
+      }
+       #zines{
+        margin-top: 12%;
+        margin-left: 20%;
+       }
+       #zines img{
+       width: 40%;
+      }
+       #perritos{
+        margin-top: 22%;
+        margin-left: 70%;
+       }
+       #perritos img{
+       width: 60%;
+      }
+       #tech{
+        margin-top: 32%;
+        margin-left: 78%;
+       }
+        #tech img{
+       width: 40%;
+      }
+       #fun{
+        margin-top: 30%;
+        margin-left: 55%;
+       }
+       #fun img{
+       width: 40%;
+      }
+       #arq{
+        margin-top: 39%;
+        margin-left: 30%;
+       }
+      #arq img{
+       width: 90%;
+      }
+       #raya{
+        margin-top: 44%;
+        margin-left: 70%;
+       }
+      #raya img{
+       width: 70%;
+      }
+       #bio{
+        margin-top: 13%;
+        margin-left: 75%;
+       }
+      #bio img{
+       width: 90%;
+      }
+       #paruro{
+        margin-top: 33%;
+        margin-left: 18%;
+       }
+      #paruro img{
+       width: 85%;
+      }
+      
+      .booklet{
+        width: 8%;
+       height: 29px;
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 91%;
+        z-index: 50;
+   
+       }
+       #book{
+       width: 100%;
+      cursor:  url(c/text.png), auto;
+      }
+       .oson{
+        width: 32%;
+       height: 100px;
+        position: absolute;
+        margin-top: 38%;
+        z-index: 50;
+   
+       }
+       #oso{
+       width: 90%;
+       cursor:  url(c/botellin.png), auto;
+      }
+
+/*/////////////pagina fotos cami////////////*/
+.cami{
+width: 100%;
+height: 1500px;
+background-image: url(f/cami.jpg);
+background-size: contain;
+
+float: left;
+}
+
+
+
+/*/////////////pagina galeriant////////////*/
+       .FOTONES{
+       width: 100%;
+       height: 100vh;
+       background-color: rgb(255, 188, 106);
+       position: relative;
+       }
+      .bona{
+       width: 20%;
+       height: 200px;
+       margin-left: 70%;
+       margin-top: -35%;
+       position: absolute;
+       cursor: pointer;
+       }
+/*/////////////meme inicio////////////*/
+.flyer2{
+width: 30%;
+height: 400px;
+margin-top: 15%;
+margin-left: 55%;
+}
+       #informativo2{
+       background-color:rgba(255, 0, 0, 0);
+      }
+       .flyer2 .cancelador2{
+        margin-right: 0%;
+        margin-top: -10%;
+        display: flex;
+        justify-content: flex-end;
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        z-index: 100;
+        }
+        #collabs2:checked ~ .popmama2{
+        display:flex;
+       }
+       #collabs2{
+        display:none;
+        }
+        .popmama2{
+          width: 100%;
+          height: 100vh;
+          position: fixed;
+          top: 0; left: 0;
+          display: none;
+          justify-content: center;
+          align-items: center;
+          z-index: 100;
+        }
+        .cerrar-modal2{
+          width:100%;
+          height: 100vh;
+          position: absolute;
+          top:0; left: 0;
+          z-index: -1;       
+        }
+/*///////////////meme fin/////////////*/
+
+
+/*/////////////random announcement////////////*/
+.flyer1{
+  background-color:rgb(0, 255, 98);
+  width: 60%;
+  height: 17vh;
+  margin-top: 20%;
+  margin-left: 15%;
+ }
+       #informativo1{
+        background-color:rgba(255, 0, 0, 0.282);
+      }
+       .flyer1 .cancelador1{
+        margin-right: 0%;
+        margin-top: -2%;
+        display: flex;
+        justify-content: flex-end;
+         font-size: 200px;
+        color: rgb(0, 255, 98);
+        z-index: 100;
+        cursor: pointer;
+        }
+        #collabs1:checked ~ .popmama1{
+          display:flex;
+       }
+       #collabs1{
+        display:none;
+        }
+        .popmama1{
+          width: 100%;
+          height: 100vh;
+          position: fixed;
+          top: 0; left: 0;
+          display: none;
+          justify-content: center;
+          align-items: center;
+          z-index: 100;
+        }
+        .cerrar-modal1{
+          width:100%;
+          height: 100vh;
+          position: absolute;
+          top:0; left: 0;
+          z-index: -1;
+       
+        }
+/*///////////////random announcement fin/////////////*/
+        .larex{
+        width: 100%;
+      height: 309%;
+       background-image: url(f/boni6.png);
+       background-image: cover;
+       background-size: 100%;
+       background-repeat: no-repeat;
+       position: absolute;
+       z-index: 0;
+       }
+
+        .pepe{
+ margin-left: 5%;
+        width: 20%;
+       height: 350px;
+        position: absolute;
+        margin-top: 100%;
+        z-index: 50;
+   
+       }
+       #pepepe{
+       width: 50%;
+       cursor:  url(c/pixi.png), auto;
+      }
+
+        .plano{
+        
+ margin-left: 18%;
+        width: 42%;
+       height: 30%;
+        position: absolute;
+        margin-top: 120%;
+        z-index: 50;
+   
+       }
+       #planito{
+       width: 100%;
+       cursor:  url(c/ojito.png), auto;
+      }
+       .b1{
+        margin-left: 2%;
+        width: 8%;
+       height:8%;
+        position: absolute;
+        margin-top: 153%;
+        cursor: pointer;
+       z-index: 50;
+       }
+       .b2{
+        margin-left: 2%;
+   width: 8%;
+       height:8%;
+        position: absolute;
+        margin-top: 143%;
+        cursor: pointer;
+       z-index: 50;
+       }
+
+              .gracias{
+ margin-left:58%;
+        width: 39%;
+       height:5%x;
+        position: absolute;
+        margin-top: 153%;
+       }
+       #faua{
+       width: 100%;
+       }
+       .residentes{
+     margin-left:55%;
+        width: 35%;
+       height:20%;
+        position: absolute;
+        margin-top: 55%;
+        z-index: 50;
+       }
+       #chezposters{
+       width: 30%;
+       float: left;
+       }
+      #winkayllu{
+         margin-left: 10%;
+       width: 50%;
+       float: left;
+      
+       }
+       #recicloso{
+        float: left;
+       width: 30%;
+       margin-left: 30%;
+             cursor:  url(c/reciclaje.png), auto;
+       }
+/*///////////////////////////////////////////1200/////////////*/
+  @media (max-width:1200px){ 
+ /*/////////////////manifesto larex //////////////*/
+        h1{
+           font-size: 17px;
+           letter-spacing: 18px;
+        }
+        h2{
+          font-size: 17px;
+        }
+       #morado{
+         letter-spacing: 16px;
+}
+       #blancomani{
+       font-size: 14px;
+         letter-spacing: 9px;
+         font
+  }
+
+           #popa{
+           font-size: 15px;
+           font-weight: 600;
+           letter-spacing: 16px;
+        }
+          h3{
+          font-size: 45px;
+          letter-spacing: 4px;
+          line-height: 35px;
+          } 
+    
+    }
+    /*///////////////////////////////////////////1000/////////////*/
+  @media (max-width:1000px){ 
+
+       .booklet{
+        width: 12%;
+       height: 29px;
+        margin-top: 9px;
+        margin-left: 85%;
+
+       }
+ #popa{
+font-size: 14px;
+letter-spacing: 15px;
+}
+
+    }
+
+        /*///////////////////////////////////////////900/////////////*/
+  @media (max-width:900px){ 
+           .booklet{
+        margin-top: 7px;
+
+       }
+                 h3{
+          font-size: 43px;
+          letter-spacing: 4px;
+          } 
+    }
+            /*/////////////////////////////825/////////////*/
+  @media (max-width:825px){ 
+            #popa{
+           font-size: 12px;
+            letter-spacing: 14px;
+          
+        }
+.zero{
+  font-size: 14px;
+ }
+            .booklet{
+        margin-top: 6px;
+
+       }
+
+        h3{
+          font-size: 40px;
+          letter-spacing: 4px;
+          line-height: 32px;
+          } 
+ /*/////////////////manifesto larex //////////////*/
+        h1{
+           font-size: 15px;
+           letter-spacing: 17px;
+        }
+        h2{
+          font-size: 15px;
+        }
+       #morado{
+         letter-spacing: 15px;
+}
+       #blancomani{
+       font-size: 12px;
+         letter-spacing: 8px;
+         font
+  }
+  }
+                /*////////////////////////////650/////////////*/
+  @media (max-width:650px){ 
+       .vertical{
+           font-size: 17px;
+       }
+           #popa{
+           font-size: 11px;
+            letter-spacing: 11px;
+          
+        }
+     /*/////////////////manifesto larex //////////////*/
+        h1{
+           font-size: 13px;
+           letter-spacing: 15px;
+        }
+        h2{
+          font-size: 13px;
+        }
+       #morado{
+         letter-spacing: 12px;
+}
+       #blancomani{
+       font-size: 10px;
+         letter-spacing: 8px;
+         font
+  }
+              .booklet{
+        margin-top: 4px;
+
+       }
+               h3{
+          font-size: 35px;
+          letter-spacing: 3px;
+          line-height: 30px;
+          } 
+    }
+ /*////////////////////////////550/////////////*/
+  @media (max-width:550px){ 
+    button {
+     border-width: 1px;
+       }
+           .vertical{
+           font-size: 14px;
+       }
+               #popa{
+           font-size: 10px;
+            letter-spacing: 10px;
+          
+        }
+         /*/////////////////manifesto larex //////////////*/
+        h1{
+           font-size: 11px;
+           letter-spacing: 13px;
+        }
+        h2{
+          font-size: 11px;
+        }
+       #morado{
+         letter-spacing: 10px;
+}
+       #blancomani{
+       font-size: 9px;
+         letter-spacing: 7px;
+  }
+
+        .booklet{
+        margin-top: 3px;
+        width: 15%;
+          margin-left: 82%;
+       }
+                      h3{
+          font-size: 33px;
+          letter-spacing: 3px;
+          line-height: 28px;
+          } 
+    }
+     /*////////////////////////////450/////////////*/
+  @media (max-width:450px){ 
+
+     }
