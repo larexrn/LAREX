@@ -7,7 +7,7 @@ function preload() {
  }
 
 function setup() {
-   canvas = createCanvas (1460, 2380);
+   canvas = createCanvas (1460, 2270);
    canvas.position (-20, 25);
    canvas.style('cursor', 'url(c/pen2.png), auto'); 
     slider = createSlider(1, 36, 6);
