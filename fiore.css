@@ -1,3 +1,4 @@
+
 body{
   padding:0%;
   margin: 0%;
@@ -422,6 +423,15 @@ margin-left: 55%;
        width: 90%;
        cursor:  url(c/ojito.png), auto;
       }
+             .b0{
+        margin-left: 2%;
+   width: 8%;
+       height:8%;
+        position: absolute;
+        margin-top: 127%;
+        cursor: pointer;
+       z-index: 50;
+       }
        .b1{
         margin-left: 2%;
         width: 8%;
